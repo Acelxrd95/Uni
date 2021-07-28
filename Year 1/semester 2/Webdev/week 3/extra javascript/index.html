@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style media="screen">
+        * {
+            font-family: sans-serif;
+        }
+
+        a {
+            text-decoration: none;
+            width: 100%;
+            display: inline-block;
+            padding: 15px 0px 15px 0px;
+            transition:  background-color 200ms ease-in-out;
+        }
+
+        a:hover {
+            background-color: rgb(134, 134, 134);
+        }
+
+        li {
+            list-style: none;
+            width: 25%;
+            padding: 0px calc(75%/6);
+            text-align: center;
+        }
+
+        ul {
+            background-color: rgb(230, 230, 230);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .dropdownicon {
+            display: none;
+        }
+
+        @media screen and (max-width: 500px){
+            ul{
+                display: block;
+            }
+
+            li{
+                /* display: none; */
+                padding: 0;
+                width: 100%;
+            }
+
+            a{
+                text-align: left;
+                padding-left: 20px;
+            }
+
+            .dropdownicon{
+                display: block;
+                width: 10%;
+                margin-left: 90%;
+            }
+
+            nav ul li:not(nth-child(1)) a{
+                text-align: left;
+                padding-left: 20px;
+            }
+
+            .dropdownicon {
+                text-align: center;
+            }
+
+            .displayNone {
+                display: none;
+            }
+
+            .displayBlock{
+                display: block;
+            }
+        }
+    </style>
+    <script type="text/javascript">
+        function dropDown() {
+            var lists = document.getElementsByClassName('get-li');
+            if (lists[0].classList.contains("displayNone")) {
+                for(var i = 0; i < lists.length; i++) {
+                    lists[i].classList.replace("displayNone", "displayBlock")
+                }
+            }
+            else if (lists[0].classList.contains("displayBlock")) {
+                for(var i = 0; i < lists.length; i++) {
+                    lists[i].classList.replace("displayBlock", "displayNone")
+                }
+            }
+        }
+        </script>
+</head>
+<body>
+    <nav class="main-nav">
+        <ul>
+            <li class="dropdownicon" onclick="dropDown()"> <a href="#"> &#9776; </a> </li>
+            <li class="get-li displayNone"> <a href="#"> Home </a> </li>
+            <li class="get-li displayNone"> <a href="#"> About </a> </li>
+            <li class="get-li displayNone"> <a href="#"> Contact us </a> </li>
+        </ul>
+    </nav>
+</body>
+</html>

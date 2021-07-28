@@ -1,0 +1,124 @@
+*{
+    font-family: "Avenir Next LT Pro";
+}
+
+span {
+    font-size: 40px;
+    text-shadow: 3px 3px 13px rgba(91, 91, 91, 0.47);
+}
+
+.container {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+table {
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sec-table {
+    text-align: center;
+}
+
+.the-span {
+    padding-left: 20px;
+}
+
+td:not(.td) {
+    padding: 15px 30px;
+}
+
+.one , .two {
+    text-decoration: none;
+    color: dodgerblue;
+    border: 2px solid dodgerblue;
+    padding: 10px 15px;
+    margin-left: 10px;
+}
+
+.three {
+    text-decoration: none;
+    color: #fff;
+    background-color: dodgerblue;
+    padding: 10px 15px;
+    margin-right: 10px;
+}
+
+.links {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+}
+
+.h1 {
+    background:linear-gradient(to left, #13f1fc 0%,#0470dc 100%);
+    padding: 10px 10px ;
+    color:#fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.section-1 {
+background-color: rgba(215, 254, 255, 0.76);
+padding-bottom: 60px
+}
+
+.section-2 {
+background-color: rgba(254, 209, 235, 0.39);
+padding-bottom: 30px
+}
+
+.section-3{
+    background-color: rgba(236, 254, 208, 0.48)
+}
+
+p{
+    margin-bottom: 50px;
+}
+
+.h2{
+    background:linear-gradient(135deg, #F36265 0%,#961276 100%);
+}
+
+button {
+    border: 0px ;
+    padding: 15px  ;
+    color: #fff ;
+    background-color: rgb(251, 148, 82);
+    font-size:20px;
+}
+
+button:hover{
+    background-color: rgb(200, 78, 0);
+    cursor:pointer
+}
+
+.h3{
+    background:linear-gradient(to left, #42e695 0%,#3bb2b8 100%);
+}
+
+iframe{
+    background-color: rgba(200, 200, 200, 0.48) ;
+    padding: 15px;
+    border-radius: 15px;
+    display: block;
+    /* width: 500px */
+    margin: 0 auto;
+}
+
+.one:hover {
+    background-color: DodgerBlue;
+    color: #fff
+}
+
+.two:hover {
+    background-color: DodgerBlue;
+    color: #fff
+}
+
+.three:hover {
+    background-color: RoyalBlue;
+}

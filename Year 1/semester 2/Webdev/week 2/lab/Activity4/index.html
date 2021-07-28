@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <h1 class="title">Forms: Hijacking Websites</h1>
+    <hr><br/>
+    <div class="container">
+        <div class="btns">
+            <button class="btn btn-primary" type="button" name="button">CLICK ME</button>
+            <button class="btn btn-primary" type="button" name="button">CLICK ME</button>
+        </div>
+        <div class="reddit">
+            <form action="https://www.reddit.com/search/?" method="get">
+                <fieldset>
+                    <legend>Hijacking Reddit</legend>
+                    <label for="reddit">Search Reddit:</label>
+                    <input class="form-control" type="text" id="reddit" name="q" placeholder="Type something.." required="">
+                    <input class="form-control" type="submit" readonly="" value="Search">
+                </fieldset>
+            </form>
+        </div>
+        <div class="google">
+            <form action="https://www.google.com/search?q=" method="get" target="_blank">
+                <fieldset>
+                    <legend>Hijacking Google</legend>
+                    <label for="google">Search Google</label>
+                    <input class="form-control" type="text" id="google" name="q" placeholder="Type something.." required="">
+                    <input class="form-control" type="submit" readonly="" value="Search">
+                </fieldset>
+            </form>
+        </div>
+        <div class="youtube">
+            <form action="https://www.youtube.com/results?" method="get" target="_blank">
+                <fieldset>
+                    <legend>Hijacking Youtube</legend>
+                    <label for="youtube">Search Youtube</label>
+                    <input class="form-control" type="text" id="youtube" name="search_query" placeholder="Type something.." required="">
+                    <input class="form-control" type="submit" readonly="" value="Search">
+                </fieldset>
+            </form>
+        </div>
+        <div class="cen">Hold me</div>
+    </div>
+</body>
+</html>

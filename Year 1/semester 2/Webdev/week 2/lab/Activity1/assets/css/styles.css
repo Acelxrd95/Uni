@@ -1,0 +1,22 @@
+h1 {
+  color: rgb(201, 1, 102);
+  background-color: rgba(250, 177, 247, 0.64);
+}
+
+.front-end {
+  color: blue;
+  background-color: #ddd;
+  width: 300px;
+}
+
+.back-end {
+  color: white;
+  background-color: #000;
+  width: 300px;
+}
+
+blockquote {
+  color: red;
+}
+
+

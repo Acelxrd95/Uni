@@ -1,0 +1,117 @@
+*{
+  font-family: cursive;
+}
+h4,h1{
+  text-align: center
+}
+
+.sec-1  , .sec-2 ,.sec-3,.sec-4,.sec-5 {
+background-color: #ebebeb ;
+padding-top: 30px ;
+padding-bottom: 15px ;
+width: 700px ;
+margin: 0 auto 
+}
+
+.transformed-inline{
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+}
+
+.the-h1{
+padding: 40px 40px ;
+border-radius: 20px;
+border: 2px solid rgb(171, 0, 100);
+width: 500px ;
+margin: 30px auto;
+
+
+}
+ol{
+  width: 600px ;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+h1 {
+  color : rgb(201, 1, 102) ;
+  background-color: rgba(250, 177, 247, 0.64)  ;
+
+}
+
+
+.front-end{
+color:  blue;
+background-color: #ddd ;
+width: 300px ;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.back-end {
+
+color : white ;
+background-color: #000;
+width: 300px ;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+
+
+}
+
+blockquote{
+  color:red ;
+  text-align: center;
+
+}
+cite{
+  display: block;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ol .js li {
+
+color: red ;
+
+}
+
+ol .first .second li {
+  color: blue
+}
+
+p{
+background-color: #ddd;
+border: 3px solid rgb(122, 122, 122);
+padding: 20px 20px ;
+width: 100px;
+border-radius:30px;
+text-decoration: underline;
+font-style: italic;
+font-weight: bold;
+color:rgb(0, 104, 138);
+margin-left: auto;
+margin-right: auto;
+
+}
+
+img{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  .third-link{
+    display: block;
+    width: 108px;
+    margin-left: auto;
+    margin-right:auto
+  }
